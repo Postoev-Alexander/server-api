@@ -8,6 +8,7 @@
 # Build results
 aws_app/
 site/
+tmp/
 bin/
 obj/
 [Bb]in/
