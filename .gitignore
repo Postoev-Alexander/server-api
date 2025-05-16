@@ -1,0 +1,26 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+aws_app/
+site/
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.app
+*.log
+
+# Test results
+TestResults/
+
+# Others
+*.cache
+*.pdb
+*.mdb

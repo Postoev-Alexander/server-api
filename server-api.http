@@ -1,0 +1,15 @@
+@server_api_HostAddress = http://localhost:5265
+
+GET {{server_api_HostAddress}}/healthy/
+Accept: application/json
+
+###
+
+### Проверка сервера
+GET {{server_api_HostAddress}}/check
+
+### Отправка сообщения на сервер
+POST {{server_api_HostAddress}}/receive-message
+Content-Type: text/plain
+
+###
